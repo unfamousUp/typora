@@ -1,0 +1,15 @@
+# 重庆机房
+
+## 一、数据库表
+
+### omc_event_detail
+
+- event_title
+  - Vhostuser接口down
+  - BFD会话状态为Down
+  - 配置变更告警
+
+## 二、接口
+
+
+

@@ -1,0 +1,156 @@
+
+
+# 安防管理优化
+
+每个地图左上角的搜索图标
+
+## 首页
+
+1. 首页点击详情应跳转到行为预警界面
+
+![image-20231009180306621](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091803841.png)
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091804495.png)
+
+
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+1. 图表意义不明
+
+![image-20231009190526086](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091905223.png)
+
+### 2. 入园申请
+
+1.1 关闭新增弹出框，再次点击新增按钮，输入框的校验状态应该重置
+
+![image-20231009191653885](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091916988.png)
+
+1.2 点击编辑按钮，部分有内容的输入框依然有校验提示。
+
+![image-20231009192542183](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091925307.png)
+
+1.3 新增操作时，如果先填写好新增车辆信息，再朝剩下没填的空打字，下面的新增信息就会被清空（人员申请和车辆申请都是同一bug）
+
+![image-20231009192047483](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091920584.png)
+
+![image-20231009192345470](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091923569.png)
+
+### 3. 人员通行记录
+
+1.1 列表和卡片的切换逻辑应该是：点哪个则切换到对应的页面。而不是点了列表显示卡片，反之亦然。
+
+![image-20231009193045670](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091930768.png)
+
+1.2 卡片页面少了分页功能
+
+![image-20231009193209833](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310091932933.png)
+
+### 4. 车辆通行记录
+
+1. 和3.2一样的问题
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+2.1 视频监控摄像头其它算法再点击无算法会黑屏无法播放【无算法】的摄像头视频
+
+![image-20230927181111362](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271811479.png)
+
+2.2 报警信息头部应当根据当前设备编号来查询对应的信息
+
+![image-20231009200406752](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092004900.png)
+
+2.3 预警信息确认后，不输入点击确定会报错，应给予提示。
+
+![image-20231009200707103](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092007268.png)
+
+2.4 预警信息处置时，快速点击两次确认按钮，会直接从跳过评价，直接结束。`(所有和确认相关的按钮都有该bug)`
+
+![image-20231009200929831](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092009999.png)
+
+![image-20231009200849266](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092008399.png)
+
+### 3. 设备状态监测
+
+3.1 应弹出【该设备暂无状态变动记录】
+
+![image-20231009202535930](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092025105.png)
+
+![image-20230927182850647](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271828757.png)
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+### 2. 巡查点管理
+
+2.1 列表新增巡查点时，当前状态写死了。
+
+![image-20231009204142810](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092041943.png)
+
+2.2 状态值传错了，禁用状态应传【2】
+
+![image-20231009204315020](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092043184.png)
+
+![image-20231009204250615](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092042667.png)
+
+### 3. 巡查计划管理
+
+### 4. 巡查任务管理
+
+4.1 输入文字不显示下拉框
+
+![image-20230927192657083](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271926230.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+### 3. 状态预警事件
+
+3.2 通知操作中的通知人员为空时也能调用接口，应将通知人员设为必填，进行输入校验。
+
+![image-20230927123839302](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271238411.png)
+
+### 4. 巡查预警事件
+
+## 五、基础信息维护
+
+### 1. 出入口管理
+
+1.1 绑定闸机下拉框和输入框显示的不一致，编辑成功之后绑定闸机字段应显示闸机名称
+
+![image-20231009211252606](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092112711.png)
+
+![image-20231009211355842](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310092113943.png)
+
+### 2. 人员管理
+
+操作字段需添加【详情】操作
+
+### 3. 车辆管理
+
+操作字段需添加【详情】操作
+
+### 4. 设备管理
+
+操作字段需添加【详情】操作
+
+## 六、系统管理
+
+### 1. 用户管理
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+### 4. 日志管理
+

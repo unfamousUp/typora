@@ -1,0 +1,106 @@
+
+
+# 安防管理优化
+
+## APP端
+
+1.1 巡查预警类型：应传的是数字编号（1~6）而不是名称
+
+![image-20231016151003504](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161510765.png)
+
+## 首页
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+### 2. 入园申请
+
+### 3. 人员通行记录
+
+### 4. 车辆通行记录
+
+## 二、智能检测
+
+### 1. 监测概览
+
+1.1 用户输入关键字后，点击查询应传入查询条件。
+
+![image-20231016103850263](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161038438.png)
+
+1.2 试图拖动鼠标选中文字进行删除时，会进行地图的拖动而导致文字的选中失败
+
+![image-20231016103913337](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161039509.png)
+
+### 	2. 视频监测
+
+### 3. 设备状态监测
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+1.1 图标显示有问题
+
+![image-20231016105551798](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161055902.png)
+
+### 2. 巡查点管理
+
+### 3. 巡查计划管理
+
+### 4. 巡查任务管理
+
+4.1 默认为空
+
+![image-20231016134638508](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161346639.png)
+
+4.2 没有清空的按钮
+
+![image-20231016134950991](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161349098.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+### 3. 状态预警事件
+
+### 4. 巡查预警事件
+
+4.1确认后点击处置，通知人员处不应有提示
+
+![image-20231016165447088](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161654205.png)
+
+4.2 开始和结束时间的字段传错了，没有前缀real
+
+![image-20231016171606640](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161716687.png)
+
+![image-20231016171542384](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310161715499.png)
+
+## 五、基础信息护
+
+### 1. 出入口管理
+
+### 2. 人员管理
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+## 六、系统管理
+
+### 1. 用户管理
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+### 4. 日志管理
+
+4.1 username不能传【undefined】应该为【空】
+
+![image-20231017111012074](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310171110159.png)
+
+![image-20231017110912968](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310171109115.png)
+

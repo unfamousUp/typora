@@ -1,0 +1,114 @@
+
+
+# 安防管理优化
+
+## APP端
+
+1.1 巡查预警类型传入的应该是预警类型编号， 而不是 名称
+
+![image-20231012151912764](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121519891.png)
+
+## 首页
+
+1.1 点击巡查点之后应添加原型图所框内容。
+
+![image-20231012142113235](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121421400.png)
+
+1.2 首页这两个预警图标点击之后，显示的内容应和【视频监控】模块中的一致
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121434616.png)
+
+![image-20231012142600956](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121426106.png)
+
+![image-20231012143615403](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121436613.png)
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+### 2. 入园申请
+
+### 3. 人员通行记录
+
+3.1 应为12的倍数【24】、【36】
+
+![image-20231012144807228](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121448331.png)
+
+### 4. 车辆通行记录
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+### 3. 设备状态监测
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+1.1 漏检显示的有点问题
+
+![image-20231012155741934](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121557041.png)
+
+### 2. 巡查点管理
+
+### 3. 巡查计划管理
+
+### 4. 巡查任务管理
+
+4.1点击巡查点显示的效果和原型图保持一致，且根据原型图`(x/x/x)`应显示在点位的下面
+
+![image-20231012160412134](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121604252.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+2.1点击确认后，【预警确认】默认应该显示 【请选择确认类型】
+
+![image-20231012161709592](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121617710.png)
+
+### 3. 状态预警事件
+
+3.1 状态预警页面 也会出现点击确认多次调用接口的情况
+
+![image-20231012162956328](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121629431.png)
+
+3.2 处置、通知、评价中的【预警状态】改为【设备状态】
+
+![image-20231012163236212](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121632337.png)
+
+### 4. 巡查预警事件
+
+4.1 处置的时候【通知人员】不可选择
+
+![image-20231012163534901](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121635028.png)
+
+## 五、基础信息维护
+
+### 1. 出入口管理
+
+### 2. 人员管理
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+## 六、系统管理
+
+### 1. 用户管理
+
+1.1 根据原型图改一下输入框里的内容
+
+![image-20231012164259000](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310121642108.png)
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+### 4. 日志管理
+

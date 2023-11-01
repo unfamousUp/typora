@@ -1,0 +1,117 @@
+# 安防管理优化
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+1.1 到访企业趋势分析中的来访人员和来访车辆应展示为数量
+
+![image-20230927095526498](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309270955610.png)
+
+### 2. 入园申请
+
+1.1 页码组件和跳转输入框没有对齐
+
+![image-20230927100725880](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271007984.png)
+
+1.2 编辑入园申请时，所属企业输入框不是必填选项，应取消输入校验。
+
+![image-20230927101446305](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271014405.png)
+
+1.3 入园申请界面应添加【今日到访清单】按钮和【到访时间】选择框。点击今日到访清单，到访时间会定位到今天的日期，并调用查询接口，展示今日的入园申请数据。
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271019900.png)
+
+### 3. 人员通行记录
+
+### 4. 车辆通行记录
+
+## 二、智能检测
+
+### 1. 监测概览
+
+1.1 预计点位柱状图统计的应为预警总数
+
+![image-20230927123427280](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271234394.png)
+
+### 2. 视频监测
+
+2.1 视频监测接口报错
+
+![image-20230927110610324](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271106349.png)
+
+![image-20230927110516807](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271105989.png)
+
+### 3. 设备状态监测
+
+3.1 设备状态监测设备离线次数排名应调用如下状态预警排名的接口
+
+![image-20230927111233954](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271112059.png)
+
+![image-20230927110338444](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271103545.png)
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+1.1 巡查概览模块没有显示页面
+
+![image-20230927104546309](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271045407.png)
+
+### 2. 巡查点管理
+
+2.1 新增巡查点时，当前状态默认是开启状态且锁死了。应该允许用户自己选择状态。
+
+![image-20230927105551372](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271055494.png)
+
+### 3. 巡查计划管理
+
+3.1 进入巡查计划管理模块前端页面报错误弹窗
+
+![image-20230927105827683](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271058785.png)
+
+### 4. 巡查任务管理
+
+4.1 页面弹窗报错，应取消调用如下接口
+
+![image-20230927113051206](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271130231.png)
+
+![image-20230927113006963](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271130149.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+1.1 UI图上没有显示预警百分比
+
+![image-20230927113432890](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271134309.png)
+
+### 2. 行为预警事件
+
+2.1 进入页面弹窗报错，应取消调用如下接口
+
+![image-20230927114021241](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271140271.png)
+
+![image-20230927113941785](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271139890.png)
+
+### 3. 状态预警事件
+
+3.1 进入页面弹窗报错，应取消调用如下接口
+
+![image-20230927114129829](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230927114129829.png)
+
+![image-20230927114149688](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271141789.png)
+
+3.2 通知操作中的通知人员为空时也能调用接口，应将通知人员设为必填，进行输入校验。
+
+![image-20230927123839302](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271238411.png)
+
+### 4. 巡查预警事件
+
+4.1 进入页面弹窗报错，应取消调用如下接口
+
+![image-20230927124019993](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271240024.png)
+
+4.2 去除巡检路线字段和巡查路线输入框，其余按原型图进行整改
+
+![image-20230927124643986](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202309271246088.png)

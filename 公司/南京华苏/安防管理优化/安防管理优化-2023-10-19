@@ -1,0 +1,126 @@
+# s安防管理优化
+
+## 全局优化
+
+头部栏，应加个【小人】图标，并且只显示【用户名】去除【欢迎您】
+
+![image-20231019094157505](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190941672.png)
+
+![image-20231019094233205](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190942339.png)
+
+## APP端
+
+1.1 查看巡查任务记录，当从下往上滑动的时候，会自动回到顶部。
+
+![image-20231019104504769](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191045811.png)
+
+## 首页
+
+1.1 当来访人员和来访车辆为0时，来访率应显示0%，而不是NaN%
+
+![image-20231019094502879](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190945006.png)
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+1.1 来访和预约为0时，图表显示有问题
+
+![image-20231019095357993](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190953107.png)
+
+### 2. 入园申请
+
+### 3. 人员通行记录
+
+3.1 人员通行记录【图表】界面的分页应该为【10条/页】、【20条/页】、【30条/页】
+
+![image-20231019095508227](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190955326.png)
+
+### 4. 车辆通行记录
+
+4.1 车辆通行记录【图表】界面的分页应该为【10条/页】、【20条/页】、【30条/页】
+
+![image-20231019095615494](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190956596.png)
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+### 3. 设备状态监测
+
+3.1 传感器应该显示【传感器图标】而不是【摄像头图标】
+
+![image-20231019094610095](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190946194.png)
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+### 2. 巡查点管理
+
+2.1根据原型图，表格需要加【外边框】。
+
+![image-20231019095853714](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190958798.png)
+
+![image-20231019095942276](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310190959388.png)
+
+### 3. 巡查计划管理
+
+### 4. 巡查任务管理
+
+4.1 巡查任务界面的巡查点以及点击事件和首页保持一致，带有【检】的图标。
+
+![image-20231019113445914](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191134100.png)
+
+![image-20231019113709115](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191137226.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+### 3. 状态预警事件
+
+### 4. 巡查预警事件
+
+## 五、基础信息护
+
+### 1. 出入口管理
+
+1.1 不应该根据闸机编号【gate_num】来查询闸机，应该根据闸机名称
+
+![image-20231019101554827](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191015931.png)
+
+### 2. 人员管理
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+## 六、系统管理
+
+### 1. 用户管理
+
+### 2. 角色管理
+
+2.1 表格超出背景了
+
+![image-20231019103445125](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191034233.png)
+
+### 3. 菜单管理
+
+### 4. 日志管理
+
+4.1登录日志表格需要加【外边框】
+
+![image-20231019103639401](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191036502.png)
+
+4.2 操作日志表格需要加【外边框】
+
+![image-20231019103725176](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310191037280.png)
+
+
+

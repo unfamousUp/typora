@@ -1,0 +1,150 @@
+
+
+# 安防管理优化
+
+## 全局优化
+
+1.1 带有地图的页面，只要双击任何位置，包括可供交互的按钮等，click事件就会传到地图的层级，触发双击放大。
+
+![image-20231010150441015](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101504219.png)
+
+1.2 凡是弹出需要点击确认按钮的页面，只要快速点击两次【确认】按钮，就会触发对应次数的接口。
+
+![image-20231010151140255](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101511445.png)
+
+## 首页
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+### 2. 入园申请
+
+1.1 入园申请界面，先点击今日到访清单，再鼠标点击【到访时间】右边的×，无法清空时间。
+
+![image-20231010154539548](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101545656.png)
+
+1.2 进行分页查询时，应传两个参数【arriveStartTime】和【arriveEndTime】，并且日期格式为：年月日时分秒。
+
+![image-20231010155005519](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101550622.png)
+
+### 3. 人员通行记录
+
+### 4. 车辆通行记录
+
+## 二、智能检测
+
+### 1. 监测概览
+
+1.1 只有一种预警类型时，间距过大
+
+![image-20231010160430139](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101604243.png)
+
+### 2. 视频监测
+
+### 3. 设备状态监测
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+### 2. 巡查点管理
+
+2.1 原型图上没有清楚按钮，应去掉。
+
+![image-20231010164308883](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101643050.png)
+
+2.2 原型图上没有批量删除按钮，应去掉
+
+![image-20231010164411048](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101644150.png)
+
+### 3. 巡查计划管理
+
+3.1 操作少了个【详情】按钮
+
+![image-20231010164542907](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101645026.png)
+
+3.2 巡查点应为必填
+
+![image-20231010184836988](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101848114.png)
+
+### 4. 巡查任务管理
+
+4.1 和原型图对比，少了【巡查人员】和【巡查点】
+
+![image-20231010165007220](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101650329.png)
+
+4.2 原型图上鼠标移入巡查点应显示巡查情况
+
+![image-20231010184334869](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101843008.png)
+
+4.3 巡查点之间不应该为闭环，是线段
+
+![image-20231010185153218](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101851360.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+1.1 预警处理率应加个百分号
+
+![image-20231010165218428](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101652532.png)
+
+### 2. 行为预警事件
+
+2.1 预警确认下拉框必填，应添加校验。
+
+![image-20231010160154356](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101601490.png)
+
+
+
+### 3. 状态预警事件
+
+3.1 预警状态应为预警类型
+
+![image-20231010170806518](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101708624.png)
+
+### 4. 巡查预警事件
+
+1.1 批量删除按钮应删除，原型图上没有
+
+![image-20231010170138855](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101701963.png)
+
+## 五、基础信息维护
+
+### 1. 出入口管理
+
+1.1 红字提示应为【请输入出入口名称】
+
+![image-20231010171916114](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101719212.png)
+
+### 2. 人员管理
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+4.1 设备类型和设备品类交换个位置
+
+![image-20231010173107125](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101731229.png)
+
+## 六、系统管理
+
+### 1. 用户管理
+
+1.1 新增角色时，只能绑定一个角色
+
+![image-20231010174156602](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101741704.png)
+
+1.2 编辑角色原型图上有确认密码和登录密码
+
+![image-20231010174230309](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101742407.png)
+
+![image-20231010174242955](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101742048.png)
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+### 4. 日志管理
+

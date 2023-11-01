@@ -1,0 +1,106 @@
+
+
+# 安防管理优化
+
+## 全局优化
+
+## 首页
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+### 2. 入园申请
+
+### 3. 人员通行记录
+
+### 4. 车辆通行记录
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+### 3. 设备状态监测
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+### 2. 巡查点管理
+
+### 3. 巡查计划管理
+
+### 4. 巡查任务管理
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+2.1 事件状态为【待确认】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025113143242](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251131403.png)
+
+2.2  事件状态为【待处置】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025113302144](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251133252.png)
+
+2.3 事件状态为【待评价】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025113336531](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251133643.png)
+
+### 3. 状态预警事件
+
+3.1 事件状态为【待通知】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025135054423](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251350538.png)
+
+3.2 事件状态为【待处置】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025135130374](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251351561.png)
+
+3.3 事件状态为【待评价】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025135214724](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251352845.png)
+
+### 4. 巡查预警事件
+
+4.1 巡查预警事件所有状态对应的【详情】页面都要加上一行【事件状态】
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251135584.png)
+
+4.2 事件状态为【待通知】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025134232949](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251342108.png)
+
+4.3 事件状态为【待处置】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025134311086](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251343238.png)
+
+4.4 事件状态为【待评价】时，点击详情所展示的页面应去掉所框内容
+
+![image-20231025134340173](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310251343314.png)
+
+## 五、基础信息护
+
+### 1. 出入口管理
+
+### 2. 人员管理
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+## 六、系统管理
+
+### 1. 用户管理
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+### 4. 日志管理
+

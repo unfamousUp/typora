@@ -1,0 +1,195 @@
+
+
+# 安防管理优化
+
+## 首页
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+### 2. 入园申请
+
+![image-20231010175510175](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101755291.png)
+
+![image-20231010175530552](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101755663.png)
+
+### 3. 人员通行记录
+
+3.1
+
+![image-20231010175851968](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101758068.png)
+
+![image-20231010175916718](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101759821.png)
+
+### 4. 车辆通行记录
+
+![image-20231010180217689](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231010180217689.png)
+
+![image-20231010180240331](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101802438.png)
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+2.1 
+
+![image-20231010181305187](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101813332.png)
+
+![image-20231010181322402](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101813541.png)
+
+2.2
+
+![image-20231010181544990](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101815125.png)
+
+![image-20231010181558820](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101815974.png)
+
+### 3. 设备状态监测
+
+
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+### 2. 巡查点管理
+
+2.1
+
+![image-20231010182313000](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101823138.png)
+
+![image-20231010182329388](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101823570.png)
+
+### 3. 巡查计划管理
+
+3.1 顺序
+
+![image-20231010183128799](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231010183128799.png)
+
+![image-20231010183144535](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101831666.png)
+
+
+
+### 4. 巡查任务管理
+
+4.1 
+
+![image-20231010183646160](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101836308.png)
+
+![image-20231010183701484](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101837664.png)
+
+4.2和原型图对比，少了【巡查人员】和【巡查点】
+
+![image-20231010183819096](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101838199.png)
+
+![image-20231010165007220](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101650329.png)
+
+4.3 
+
+![image-20231010183855235](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101838344.png)
+
+![image-20231010183909420](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101839524.png)
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+2.1
+
+![image-20231010183531684](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101835794.png)
+
+![image-20231010183544021](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101835135.png)
+
+### 3. 状态预警事件
+
+3.1 预警状态应为预警类型
+
+![image-20231010184115424](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101841533.png)
+
+### 4. 巡查预警事件
+
+## 五、基础信息维护
+
+### 1. 出入口管理
+
+### 2. 人员管理
+
+2.1 添加部门和添加下级都有【排序码】
+
+![image-20231010181649412](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101816516.png)
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101817751.png)
+
+2.2
+
+![image-20231010181910974](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101819078.png)
+
+![image-20231010181949138](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101819240.png)
+
+2.3 删除按钮
+
+![image-20231010182040977](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101820086.png)
+
+![image-20231010182057437](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101820540.png)
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+4.1
+
+![image-20231010182946522](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101829630.png)
+
+![image-20231010183015247](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101830354.png)
+
+## 六、系统管理
+
+### 1. 用户管理
+
+1.1 
+
+![image-20231010180352841](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101803954.png)
+
+![image-20231010180409905](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101804009.png)
+
+1.2 
+
+![image-20231010180533415](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231010180533415.png)
+
+![image-20231010180547702](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101805805.png)
+
+### 2. 角色管理
+
+2.1
+
+![image-20231010180721780](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231010180721780.png)
+
+![image-20231010180744303](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101807405.png)
+
+
+
+### 3. 菜单管理
+
+3.1
+
+![image-20231010181044302](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101810404.png)
+
+![image-20231010181116950](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101811056.png)
+
+3.2 
+
+![image-20231010181141585](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101811696.png)
+
+![image-20231010181158696](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101811802.png)
+
+### 4. 日志管理
+
+4.1
+
+![image-20231010181420441](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101814556.png)
+
+![image-20231010181447124](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101814223.png)

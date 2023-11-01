@@ -1,0 +1,218 @@
+
+
+# 安防管理优化
+
+## 全局优化
+
+## 首页
+
+1.1 首页如果在有滚动条的组件中滚动时，没有效果且会缩放地图
+
+![image-20231011140422797](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111404100.png)
+
+1.2 来访率要加百分号且预约车辆为0时来访率变为了NaN，应显示0%
+
+![image-20231011140522143](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111405302.png)
+
+1.3 【巡查统计】名字改为原型图上的【巡查任务】
+
+![image-20231011141226177](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111412352.png)
+
+1.4 和UI图对比，少了【巡查结果】这一列
+
+![image-20231011141324442](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111413664.png)
+
+## 一、智慧通行
+
+### 1. 通行概览
+
+1.1 图表显示的有问题
+
+![image-20231011141546441](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111415551.png)
+
+1.2 应改为【员工车辆】
+
+![image-20231011152524445](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111525549.png)
+
+### 2. 入园申请
+
+1.1 【到访时间】应提供一个时间范围供用户选择，也就是到访时间和结束时间。
+
+![image-20231011142017128](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111420235.png)
+
+1.2 原型图没有删除按钮，应去除
+
+![image-20231011142624699](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111426812.png)
+
+### 3. 人员通行记录
+
+1.1 批量导出按钮和上面对齐，【列表】改为【图表】
+
+![image-20231011144322375](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111443479.png)
+
+1.2 人员通行记录卡片默认每页铺满【12】个卡片，分页组件的【10条/页】应该为12的倍数。`车辆通行记录的卡片也是如此`
+
+![image-20231011145127773](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111451880.png)
+
+### 4. 车辆通行记录
+
+1.1 批量导出按钮和上面按钮对齐
+
+![image-20231011144559036](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111445145.png)
+
+1.2 【姓名】应改为【车牌号】，【人员类型】应改为【车辆类型】
+
+![image-20231011144907302](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111449410.png)
+
+
+
+## 二、智能检测
+
+### 1. 监测概览
+
+### 2. 视频监测
+
+1.1 视频监控点击摄像头进入到处置界面，连续点击确认按钮会多次调用接口
+
+![image-20231011151636722](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111516844.png)
+
+![image-20231011151813533](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111518644.png)
+
+1.2 点击【确认】后弹窗左上角显示的信息应根据事件的状态来显示，此时应显示【预警信息确认】
+
+![image-20231011153040607](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111530726.png)
+
+### 3. 设备状态监测
+
+1.1 【通知人员】旁边应有红色☆号，输入框为空时点击确认应有提示
+
+![image-20231011153610957](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111536067.png)
+
+## 三、巡查管理
+
+### 1. 巡查概览
+
+1.1 根据UI图图标中少了【漏检】点数显示的饼图占比
+
+![image-20231011154037331](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111540437.png)
+
+![image-20231011154105483](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111541608.png)
+
+### 2. 巡查点管理
+
+2.1 不好意思![img](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111550233.png)昨天看错了，原型图是有【批量删除】按钮的，抱歉。然后删除上面巡查点那一栏。
+
+![image-20231011155041143](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111550254.png)
+
+2.2 根据原型图，应去除巡查点上显示的名称
+
+![image-20231011162715315](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111627429.png)
+
+### 3. 巡查计划管理
+
+3.1 点击当前状态按钮，会出现不明图标
+
+![image-20231011163623216](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111636342.png)
+
+3.2 点击删除未启用状态的巡查计划时，直接删除了，应显示删除提示。
+
+![image-20231011163859575](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111638685.png)
+
+### 4. 巡查任务管理
+
+4.1 该界面根据原型图应去除巡查点在地图上显示的名称文字，而在每个点位下面显示`(x/x/x)`。`(1/0/5)`数字依次表示：【该点位在所属的所有任务中待巡查的个数】、【该点位在所属的所有任务中漏检的个数】、【该点位在所有任务中出现的次数】
+
+![image-20231011162451689](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111624908.png)
+
+![image-20231011164235389](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111642505.png)
+
+4.3 和原型图对比，少了巡查结果这一列
+
+![image-20231011164504251](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111645361.png)
+
+4.3 应改为巡查任务
+
+![image-20231011164951315](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111649423.png)
+
+![image-20231011165021725](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111650837.png)
+
+
+
+## 四、事件管理
+
+### 1. 事件概览
+
+### 2. 行为预警事件
+
+2.1 确认、处置、评价的描述 可以为空，不需要校验。
+
+![](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111653525.png)
+
+2.2 连续点击确认按钮会多次调用接口
+
+![image-20231011165419861](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111654969.png)
+
+### 3. 状态预警事件
+
+3.1 预警状态应为设备状态，字段值为warning_type
+
+![image-20231010170806518](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101708624.png)
+
+3.2 所有的确认、处置、评价的描述都可以为空
+
+![image-20231011171618935](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111716051.png)
+
+### 4. 巡查预警事件
+
+4.1应删除【巡查路线】这一行
+
+![image-20231011165706555](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111657662.png)
+
+4.2 通知完之后，选择处置，通知人员弹出校验
+
+![image-20231011165808661](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111658766.png)
+
+4.3 巡查预警页面没有删除按钮
+
+![image-20231011170344313](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111703421.png)
+
+4.4 新增预警之后，这些字段就不能被选中了
+
+![image-20231011170425237](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111704371.png)
+
+## 五、基础信息维护
+
+### 1. 出入口管理
+
+1.1 红字提示应为【请输入出入口名称】
+
+![image-20231010171916114](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310101719212.png)
+
+### 2. 人员管理
+
+2.1 应改为添加人员
+
+![image-20231011171951447](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111719558.png)
+
+2.2 编辑左侧子部门时，应显示上级部门
+
+![image-20231011172126924](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111721036.png)
+
+### 3. 车辆管理
+
+### 4. 设备管理
+
+## 六、系统管理
+
+### 1. 用户管理
+
+### 2. 角色管理
+
+### 3. 菜单管理
+
+3.1 去掉【/权限】
+
+![image-20231011173838083](https://gitee.com/chen-jiujia/typora-picgo/raw/master/img/202310111738196.png)
+
+### 4. 日志管理
+
