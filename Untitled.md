@@ -22,6 +22,65 @@
 
 总而言之，还是不要贪小便宜，没有白白来钱的生意活。
 
+```python
+import seaborn as sns
+data.Price.describe()
+
+import seaborn as sns
+data.Price.describe()
+import seaborn as sns
+data.Price.describe()
+count    1.221100e+04
+mean     1.063692e+06
+std      6.388613e+05
+min      8.500000e+04
+25%      6.400000e+05
+50%      8.950000e+05
+75%      1.320000e+06
+max      9.000000e+06
+Name: Price, dtype: float64
+
+sns.distplot(data.Price)
+<AxesSubplot:xlabel='Price', ylabel='Density'>
+    
+from scipy.stats import norm, skew
+print("Skewness: %f" % data.Price.skew())
+print("Kurtosis: %f" % data.Price.kurt())
+data.Price = np.log1p(data.Price)
+sns.distplot(data.Price, fit=norm)
+x, y = data.loc[:, data.columns != 'Price'], data.loc[:, data.columns == 'Price']
+
+Skewness: 2.269242
+Kurtosis: 10.149834
+
+sns.boxplot(data=data, x='Rooms', y='Price')
+<AxesSubplot:xlabel='Rooms', ylabel='Price'>
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df=data
+sns.heatmap(df.corr(), annot=True, fmt="g", cmap='YlGnBu')
+fig=plt.gcf()
+fig.set_size_inches(16,16)
+plt.show()
+
+corr = df.corr()
+highest_corr_features = corr.index[corr["Price"]>0.2]
+plt.figure(figsize=(10, 10))
+g = sns.heatmap(data[highest_corr_features].corr(), annot=True, cmap="RdYlGn")
+plt.show()
+
+cols = highest_corr_features
+sns.pairplot(data[cols])
+plt.show()
+
+结合上述我发的所有代码，请帮我分析一下，哪段涉及到了特征处理与提取、数据处理与分析、并且解释代码显示的图表是什么含义。
+```
+
+
+
 # 冒充“公检法”
 
 我们要铭记：公安机关不会通过电话来办案的，接到的电话都是诈骗电话。

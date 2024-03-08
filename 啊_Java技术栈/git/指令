@@ -1,0 +1,9 @@
+## git cat-file
+
+1. 友好的查看文件
+
+```
+git cat-file -p [参数|版本号] 
+git cat-file -p [参数] 
+```
+
