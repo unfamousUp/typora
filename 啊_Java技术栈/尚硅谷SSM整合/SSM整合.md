@@ -5286,7 +5286,7 @@ public void checkout(Integer[] bookIds, Integer userId){
 
 ## 1、SpringMVC简介
 
-### 1.1 什么是MCV
+### 1.1 什么是MVC
 
 MVC是一种软件架构的思想，将软件按照模型、视图、控制器来划分
 
@@ -5465,7 +5465,7 @@ Spring版本：5.3.1
 <!-- 配置SpringMVC的前端控制器，对浏览器发送的请求统一进行处理 -->
 <servlet>
     <servlet-name>springMVC</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servletclass>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <!-- 通过初始化参数指定SpringMVC配置文件的位置和名称 -->
         <init-param>
         <!-- contextConfigLocation为固定值 -->
